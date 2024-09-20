@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind and daisyUi cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>payoo form</title>
+  </head>
+  <body>
+    <main class="flex justify-center">
+      <!-- get phone structure here -->
+      <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display flex justify-center">
+          <div class="artboard artboard-demo phone-3">
+            <div class="hero bg-base-200 min-h-screen">
+              <div class="hero-content flex-col lg:flex-row-reverse">
+                <div
+                  class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+                >
+                  <form class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Mobile Number</span>
+                      </label>
+                      <input
+                        id="phone-number"
+                        type="number"
+                        placeholder="Enter your number"
+                        class="input input-bordered"
+                        required
+                      />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">4 Digit Pin</span>
+                      </label>
+                      <input
+                        id="pin-number"
+                        type="password"
+                        placeholder="Enter 4 Digit Pin"
+                        class="input input-bordered"
+                        required
+                      />
+                      <label class="label">
+                        <a href="#" class="label-text-alt link link-hover"
+                          >Forgot password?</a
+                        >
+                      </label>
+                    </div>
+                    <div class="form-control mt-6">
+                      <button id="btn-login" class="btn btn-primary">
+                        Login
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- get input field here -->
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
