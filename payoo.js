@@ -7,4 +7,7 @@ const pinInput = getInputFieldValueById('pin-number');
 if(numberInput === 5 && pinInput === 1234){
     window.location.href = './home.html'
 }
+else{
+    alert('wrong pin or number');
+}
 })
