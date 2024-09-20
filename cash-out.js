@@ -27,7 +27,7 @@ document.getElementById('cash-out-btn').addEventListener('click', function(event
         const div = document.createElement('div');
         div.classList.add('bg-yellow-300');
        div.innerHTML = `
-       <h4 text-2xl font-bold>Cash Out</h4>
+       <h4 class="text-2xl font-bold">Cash Out</h4>
         <p>${cashOutInput} Tk. Withdrawn</p>
        `
         document.getElementById('transaction-container').appendChild(div);
