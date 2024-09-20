@@ -31,8 +31,11 @@
             <div>
               <button id="show-add-money" class="btn btn-lg">Add Money</button>
               <button id="show-cash-out" class="btn btn-lg">Cash Out</button>
+              <button id="show-transaction" class="btn btn-lg">
+                Transaction
+              </button>
             </div>
-            <!-- another devider -->
+            <!-- another divider -->
             <div class="divider"></div>
             <!-- add money form start here -->
             <div
@@ -110,11 +113,20 @@
               </form>
             </div>
             <!-- cash out form end here -->
+            <!-- transaction history start here -->
+            <div id="transaction-history" class="hidden">
+              <h2 class="text-2xl text-center">Transaction History</h2>
+              <div id="transaction-container" class="space-y-3"></div>
+            </div>
+
+            <!-- transaction history end here -->
           </div>
         </div>
       </div>
     </main>
     <script src="./utilities.js"></script>
     <script src="./add-money.js"></script>
+    <script src="./cash-out.js"></script>
+    <script src="./features.js"></script>
   </body>
 </html>
